@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP Fetch-API</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-uppercase">Consultando CEP</h1>
+        <form action="">
+            <fieldset class="border border-3 p-4 rounded-4 shadow">
+                <legend class="float-none w-auto text-uppercase">Informe seu CEP</legend>
+                <div class="from-group">
+                    <label for="cep">CEP</label>
+                    <input type="text" class="form-control mb-1 rounded-4 shadow-sm" id="cep" maxlength="9">
+                    <small>00000-000</small>
+                </div>
+                <br>
+                <div class="from-group mt-1">
+                    <label for="logradouro" class="text-uppercase">Logradouro</label>
+                    <input type="text" class="form-control mb-1 rounded-4 shadow-sm" id="logradouro">
+                    <small>Rua.</small>
+                </div>
+                <br>
+                <div class="from-group mt-1">
+                    <label for="bairro" class="text-uppercase">Bairro</label>
+                    <input type="text" class="form-control mb-1 rounded-4 shadow-sm" id="bairro">
+                    <small>Bairro</small>
+                </div>
+                <br>
+                <div class="from-group mt-1">
+                    <label for="localidade" class="text-uppercase">Localidade</label>
+                    <input type="text" class="form-control mb-1 rounded-4 shadow-sm" id="localidade">
+                    <small>Cidade</small>
+                </div>
+                <br>
+                <div class="from-group mt-1">
+                    <label for="uf" class="text-uppercase">UF</label>
+                    <input type="text" class="form-control mb-1 rounded-4 shadow-sm" id="uf">
+                    <small>Estado</small>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
