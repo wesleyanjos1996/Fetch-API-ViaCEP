@@ -16,3 +16,5 @@ O arquivo html está sem formatação de estilo, para corrigir isso pode executa
 * 2 - No CMD ou prompt de sua preferência digite __npm install__
 * 3 - Isso vai baixar a dependencia do __Bootstrap__
 * 4 - Pronto pode iniciar o arquivo __index.hmtl__
+
+![Logo Bootstrap](src/image/bootstrap.png)
